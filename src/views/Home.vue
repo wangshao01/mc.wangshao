@@ -12,6 +12,7 @@
         alt
       />
       <img
+        @click="news"
         style="width: 2rem;
     position: absolute;
     top: 2.5rem;
@@ -175,6 +176,9 @@ export default {
   methods: {
     instant() {
       this.$router.push("./About");
+    },
+    news() {
+      this.$router.push("./news");
     },
     // 校验函数返回 true 表示校验通过，false 表示不通过
   },
