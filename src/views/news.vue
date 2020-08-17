@@ -1,5 +1,5 @@
 <template>
-  <div class="news">2222222</div>
+  <div class="news">即时通讯聊天</div>
 </template>
 
 
