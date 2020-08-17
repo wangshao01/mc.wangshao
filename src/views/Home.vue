@@ -12,7 +12,6 @@
         alt
       />
       <img
-        @click="instant"
         style="width: 2rem;
     position: absolute;
     top: 2.5rem;
@@ -23,7 +22,7 @@
       />
     </div>
     <div class="main">
-      <div class="main_qj">
+      <div class="main_qj" @click="instant">
         <div class="left">
           <img src="@/assets/ys.jpg" alt />
         </div>
@@ -51,7 +50,7 @@
       </div>
     </div>
     <div class="main">
-      <div class="main_qj">
+      <div class="main_qj" @click="instant">
         <div class="left">
           <img src="@/assets/ys.jpg" alt />
         </div>
@@ -79,7 +78,7 @@
       </div>
     </div>
     <div class="main">
-      <div class="main_qj">
+      <div class="main_qj" @click="instant">
         <div class="left">
           <img src="@/assets/ys.jpg" alt />
         </div>
@@ -107,7 +106,7 @@
       </div>
     </div>
     <div class="main">
-      <div class="main_qj">
+      <div class="main_qj" @click="instant">
         <div class="left">
           <img src="@/assets/ys.jpg" alt />
         </div>
@@ -135,7 +134,7 @@
       </div>
     </div>
     <div class="main">
-      <div class="main_qj">
+      <div class="main_qj" @click="instant">
         <div class="left">
           <img src="@/assets/ys.jpg" alt />
         </div>
