@@ -4,6 +4,9 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 import rem from '../rem'
+
+import { NavBar } from 'vant';
+Vue.use(NavBar);
 // main.js
 import { Button } from "vant";
 Vue.use(Button);

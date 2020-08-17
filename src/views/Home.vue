@@ -12,6 +12,7 @@
         alt
       />
       <img
+        @click="instant"
         style="width: 2rem;
     position: absolute;
     top: 2.5rem;
@@ -173,6 +174,9 @@ export default {
   },
   components: {},
   methods: {
+    instant() {
+      this.$router.push("./About");
+    },
     // 校验函数返回 true 表示校验通过，false 表示不通过
   },
 };
