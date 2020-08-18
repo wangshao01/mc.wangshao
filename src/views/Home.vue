@@ -1,22 +1,14 @@
 <template>
   <div class="home">
     <div class="herder">
-      <img src="@/assets/01.jpg" alt />
-      <img
-        style="width: 11rem;
-    position: absolute;
-    top: 2.5rem;
-    left: 9.5rem;"
-        class="img01"
-        src="@/assets/ziti.jpg"
-        alt
-      />
+      <img src="@/assets/0000.jpg" alt />
+
       <img
         @click="news"
         style="width: 2rem;
     position: absolute;
     top: 2.5rem;
-    left: 21rem;"
+    right: 1rem;"
         class="img01"
         src="@/assets/jishitongxun.jpg"
         alt

@@ -4,7 +4,7 @@
       <p style="font-size:2rem" @click="turn">‹</p>
       <p>个人信息</p>
       <p>
-        <img src="../assets/jishitongxun.jpg" alt />
+        <img src="../assets/jishitongxun.jpg" alt @click="news" />
       </p>
     </div>
     <div class="main">
@@ -60,6 +60,9 @@ export default {
   methods: {
     turn() {
       this.$router.go(-1);
+    },
+    news() {
+      this.$router.push("./news");
     },
     // 校验函数返回 true 表示校验通过，false 表示不通过
   },
