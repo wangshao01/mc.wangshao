@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="herder" @click="news">‹</div>
-    <div class="footerNav" v-for="(item,index) in list" :key="index">
+    <div class="footerNav" v-for="(item,index) in list" :key="index" @click="chat">
       <p class="p1">
         <img :src="item.img" />
       </p>
@@ -46,6 +46,9 @@ export default {
   methods: {
     news() {
       this.$router.push("/");
+    },
+    chat() {
+      this.$router.push("./footer");
     },
   },
 };
