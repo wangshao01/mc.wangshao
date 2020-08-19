@@ -72,7 +72,7 @@
         </div>
       </div>
       <div class="button">
-        <button @click="ass">确定</button>
+        <button @click="ass">¥100元 确定</button>
       </div>
     </div>
   </div>
