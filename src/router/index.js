@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About'
 import news from '../views/news'
+import footer from '../views/footer'
 import Fome from '../views/Fome'
 Vue.use(VueRouter)
 
@@ -26,6 +27,11 @@ const routes = [
     path: '/news',
     name: 'news',
     component: news
+  },
+  {
+    path: '/footer',
+    name: 'footer',
+    component: footer
   },
 ]
 

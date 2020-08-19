@@ -68,7 +68,7 @@ export default {
   },
   methods: {
     btn() {
-      this.$router.push("./ferttor");
+      this.$router.push("./news");
     },
     ret() {
       this.$router.go(-1);
